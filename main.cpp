@@ -130,4 +130,4 @@ void limpiarEntrada() {
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
-//No se como lo hice pero sin esto no compila en mi pc lo intente e igual que los repositorios dios me vendigan a todos
+//No se como lo hice pero sin esto no compila en mi pc lo intente e igual que los repositorios dios me vendigan a todos amen
