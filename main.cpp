@@ -4,12 +4,12 @@
 #include <string>
 #include <limits>
 
-const int MAX_ATLETAS = 100;
-std::string nombres[MAX_ATLETAS];
-std::string paises[MAX_ATLETAS];
-std::string disciplinas[MAX_ATLETAS];
-char generos[MAX_ATLETAS];
-int medallas[MAX_ATLETAS];
+const int Maxi-Atletas = 100;
+std::string nombres[Maxi_Atletas];
+std::string paises[Maxi_Atletas];
+std::string disciplinas[Maxi_Atletas];
+char generos[Maxi_Atletas];
+int medallas[Maxi_Atletas];
 int n_atletas = 0;
 
 bool cargarDatos(const std::string& ruta);
@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
             std::string paisBuscar;
             std::getline(std::cin, paisBuscar);
             int total = totalMedallasPorPais(paisBuscar);
-            // total medallas para pais
+            // total medallas para los paises 
         } else if (opcion == 3) {
             int idxMax = atletaConMasMedallas();
             if (idxMax != -1) {
